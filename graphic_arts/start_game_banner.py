@@ -1,4 +1,4 @@
-from asciimatics.renderers import FigletText, Fire
+from asciimatics.renderers import FigletText,  Fire
 from asciimatics.renderers import SpeechBubble
 from asciimatics.scene import Scene
 from asciimatics.screen import Screen
@@ -32,7 +32,7 @@ def animation(screen):
               speed=1, transparent=False)
 
     ]
-    scenes.append(Scene(effects, -1))
+    scenes.append(Scene(effects, -2))
 
     screen.play(scenes, stop_on_resize=True)
 
